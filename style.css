@@ -1,0 +1,156 @@
+a{
+    text-decoration: none;
+}
+
+.youtube{
+    background-color: blue;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.youtube a{
+    color: white
+}
+
+.youtube:hover{
+    -webkit-transform: rotate(-360deg);
+    background: red;
+    border-radius: 30px;
+    width: 150px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    font-size: 33px;
+}
+
+.google{
+    background-color: black;
+    margin: 20px 0 0 80px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+
+}
+
+.google a{
+    color: white
+}
+
+.google:hover{
+    -webkit-transform: translate(20px, 50px);
+    background: orange;
+    border-radius: 100%;
+    width: 150px;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    font-size: 33px;
+    padding-top: 30px;
+}
+
+
+.netflix{
+    background-color: yellow;
+    margin: 20px 0 0 160px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+
+}
+
+.netflix a{
+    color: black;
+}
+
+.netflix:hover{
+    -webkit-transform: translate(20px, 30px);
+    background: lightgreen;
+    border-radius: 50%;
+    width: 350px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    font-size: 33px;
+    padding-top: 30px;
+}
+
+.amazon{
+    background-color: grey;
+    margin: 20px 0 0 320px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.amazon a{
+    color: black;
+}
+
+.amazon:hover{
+    -webkit-transform: scale(5px, 10px);
+    background: lightpink;
+    
+    width: 350px;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    font-size: 33px;
+    padding-top: 30px;
+}
+
+.zalando{
+    background-color: gold;
+    margin: 20px 0 0 440px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    -webkit-transition: all 1s cubic-bezier(1,0,0,0);
+    -moz-transition: all 1s cubic-bezier(1,0,0,0);
+    -o-transition: all 1s cubic-bezier(1,0,0,0);
+    transition: all 1s cubic-bezier(1,0,0,0);
+}
+
+.zalando a{
+    color: black;
+}
+
+.zalando:hover{
+    -webkit-transform: scale(5px, 10px);
+    background: silver;
+    
+    width: 350px;
+    -webkit-transition: all 1s cubic-bezier(1,0,0,0);
+    -moz-transition: all 1s cubic-bezier(1,0,0,0);
+    -o-transition: all 1s cubic-bezier(1,0,0,0);
+    transition: all 1s cubic-bezier(1,0,0,0);
+    font-size: 33px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
