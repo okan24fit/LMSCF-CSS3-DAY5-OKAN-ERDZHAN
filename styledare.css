@@ -1,0 +1,125 @@
+h1{
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.hove{
+    height: 180px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid lime;
+    padding: 50px;
+    font-size: 24px;
+
+}
+
+.dare{
+    border: 1px solid red;
+    margin-top: 20px;
+    height: 180px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 24px;
+}
+.dare:hover{
+    background-image: url("emoji.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    -webkit-transform: rotate(-360deg);
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    font-size: 40px;
+}
+.dare p:hover{
+    color: transparent;
+
+
+}
+.dare p:active{
+    color: red;
+    background-image: none;
+    font-size: 40px;
+}
+p{
+    color: transparent;
+    height: 180px;
+    font-size: 24px;
+}
+
+.hove:hover{
+    background-color: lightgrey;
+}
+#first:active{
+    background-image: url("wurst.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    -webkit-transform: rotate(-360deg);
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    font-size: 40px;
+}
+#second:active{
+    background-image: url("pee.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    -webkit-transform: rotate(-360deg);
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    font-size: 40px;
+}
+
+#third:active{
+    background-image: url("mirror.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    -webkit-transform: rotate(-360deg);
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    font-size: 40px;
+}
+
+.hove p:hover{
+    color: darkgreen;
+}
+.hove p:active{
+    color: transparent;
+}
+span:hover{
+   height: 200px;   
+   color: transparent;
+   
+}
